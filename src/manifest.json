@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+
+  "name": "DTCloud",
+  "description": "Le vrai visage du cloud",
+  "version": "1.0",
+
+  "applications": {
+    "gecko": {
+      "id": "dtcloud@github.com",
+      "strict_min_version": "45.0"
+    }
+  },
+
+  "icons": {
+    "48": "icon.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "content_scripts": [ {
+    "matches": ["*://*/*"],
+    "js": ["transform.js"],
+    "run_at": "document_end"
+  } ],
+
+  "permissions": [
+    "activeTab"
+  ]
+}
