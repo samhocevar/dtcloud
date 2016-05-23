@@ -8,7 +8,7 @@ Vous en avez marre de lire « dans le cloud » toutes les trois phrases ? Rempla
 facilement cette expression agaçante par « dans ton cul » sur toutes les pages que
 vous visitez grâce à cette extension !
 
-Pour Firefox : https://addons.mozilla.org/en-GB/firefox/addon/dtcloud/
+Pour Firefox : https://addons.mozilla.org/fr-FR/firefox/addon/dtcloud/
 
 Pour Chrome : https://chrome.google.com/webstore/detail/dtcloud/ojmedhcbgjeopeclmpfifmhdbiiggflh
 
